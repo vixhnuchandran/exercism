@@ -18,7 +18,7 @@ const itemList = {
   'ExtraSauce': 1,
   'ExtraToppings': 2
 }
-export function pizzaPrice(pizza, ...extras) {
+export const pizzaPrice = (pizza, ...extras) => {
 
   return (itemList[pizza]+ (extras.length ? pizzaPrice(...extras) : 0))
 
@@ -34,7 +34,7 @@ export function pizzaPrice(pizza, ...extras) {
  * 
  * 
  */
-export function orderPrice(pizzaOrders) {
+export const orderPrice = (pizzaOrders) => {
   
   return pizzaOrders.reduce((cost, order) => cost +pizzaPrice(order.pizza, ...order.extras), 0)
 }

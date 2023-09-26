@@ -1,27 +1,31 @@
-class Matrix {
-    constructor(matrix) {
-        this.matrix = matrix;
-    }
+class ArgumentError extends Error { }
 
-    get rows() {
+class OverheatingError extends Error {
 
-        return this.matrix.split('\n').map(row => row.split(' ').map(Number));
-
-        
-    }
-
-    get columns()  {
-        // Transpose the matrix to get columns
-        const rows = this.rows;
-        return rows[0].map((_, i) => rows.map(row => row[i]));
+    constructor(temperature) {
+        this.temperature = temperature;
+        super(`The temperature is ${temperature} , Overheating Alert! }`);
     }
 }
 
-const matrixStr = "1 2 3\n4 5 6\n7 8 9";
-const matrix = new Matrix(matrixStr);
+function checkHumidityLevel(humidityPercentage) {
+    if (humidityPercentage > 70) {
+        throw new Error("High Humidity Alert!");
+    }
+}
 
-console.log("Matrix:");
-console.log(matrix.rows);
 
-console.log("\nColumns:");
-console.log(matrix.columns);
+function reportOverheating(temperature) {
+    if (temperature === null) {
+        throw new ArgumentError();
+    }
+    if (temperature > 500) {
+        throw new OverheatingError(temperature);
+    }
+
+}
+
+
+
+console.log(checkHumidityLevel(59))
+console.log(checkHumidityLevel(80))
