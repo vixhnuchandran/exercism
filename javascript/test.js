@@ -1,31 +1,17 @@
-class ArgumentError extends Error { }
+function isValidCommand(command) {
+    command.trim();
+    const re = /chatbot/
 
-class OverheatingError extends Error {
-
-    constructor(temperature) {
-        this.temperature = temperature;
-        super(`The temperature is ${temperature} , Overheating Alert! }`);
-    }
-}
-
-function checkHumidityLevel(humidityPercentage) {
-    if (humidityPercentage > 70) {
-        throw new Error("High Humidity Alert!");
-    }
-}
+    
 
 
-function reportOverheating(temperature) {
-    if (temperature === null) {
-        throw new ArgumentError();
-    }
-    if (temperature > 500) {
-        throw new OverheatingError(temperature);
-    }
 
 }
 
 
 
-console.log(checkHumidityLevel(59))
-console.log(checkHumidityLevel(80))
+console.log(isValidCommand("Chatbot, play a song from the 80's."));
+
+console.log(isValidCommand("Hey Chatbot, where is the closest pharmacy?"));
+// => False
+console.log(isValidCommand("CHATBOT, do you have a solution for this challenge?"));
