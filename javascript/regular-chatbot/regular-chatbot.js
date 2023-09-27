@@ -1,5 +1,7 @@
 // @ts-check
 
+import { resourceUsage } from "process";
+
 /**
  * Given a certain command, help the chatbot recognize whether the command is valid or not.
  *
@@ -9,11 +11,11 @@
 
 export function isValidCommand(command) {
   command.trim();
-  const re = /chatbot/
-  
-  
-
+  const re = /chatbot/i
+  const result = command.search(re) === 0 ? true : false;
+  return result
 }
+
 
 /**
  * Given a certain message, help the chatbot get rid of all the emoji's encryption through the message.
@@ -22,8 +24,12 @@ export function isValidCommand(command) {
  * @returns {string} The message without the emojis encryption
  */
 export function removeEmoji(message) {
-  throw new Error('Please implement the removeEmoji function');
+  const emojiRegex = /emoji[0-9]+/g;
+
+  // Replace all occurrences of emoji placeholders with a single space
+  return message.replace(emojiRegex, '');
 }
+
 
 /**
  * Given a certain phone number, help the chatbot recognize whether it is in the correct format.
@@ -32,8 +38,13 @@ export function removeEmoji(message) {
  * @returns {string} the Chatbot response to the phone Validation
  */
 export function checkPhoneNumber(number) {
-  throw new Error('Please implement the checkPhoneNumber function');
+  const phoneNumberRegex = /^\(\+\d{2}\) \d{3}-\d{3}-\d{3}$/;
+  
+  return phoneNumberRegex.test(number)
+    ? "Thanks! You can now download me to your phone."
+    : `Oops, it seems like I can't reach out to ${number}`;
 }
+
 
 /**
  * Given a certain response from the user, help the chatbot get only the URL.
@@ -42,9 +53,12 @@ export function checkPhoneNumber(number) {
  * @returns {string[] | null} all the possible URL's that the user may have answered
  */
 export function getURL(userInput) {
-  throw new Error('Please implement the userInput function');
+  const regex = /\b\w+\.\w+\b/g;
+  return userInput.match(regex) || [];
 }
 
+
+  
 /**
  * Greet the user using the full name data from the profile.
  *
@@ -52,5 +66,5 @@ export function getURL(userInput) {
  * @returns {string} Greeting from the chatbot
  */
 export function niceToMeetYou(fullName) {
-  throw new Error('Please implement the fullName function');
+  return `Nice to meet you, ${fullName.replace(/(\w+), (\w+)/, '$2 $1')}`;
 }

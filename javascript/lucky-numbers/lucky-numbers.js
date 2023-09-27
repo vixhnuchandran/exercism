@@ -8,7 +8,8 @@
  * @returns {number} sum of the two arrays
  */
 export function twoSum(array1, array2) {
-    return Number(array1.join('')) + Number(array2.join(''))}
+    return Number(array1.join('')) + Number(array2.join(''))
+}
 
 
 /**
@@ -29,17 +30,12 @@ export function luckyNumber(value) {
  * @returns {string} error message
  */
 export function errorMessage(userInput) {
-    // Check if userInput is empty or undefined
     if (!userInput) {
         return 'Required field';
     }
-
-    // Convert userInput to a number and check if it's not a valid number
     const numberValue = Number(userInput);
     if (isNaN(numberValue) || numberValue === 0) {
         return 'Must be a number besides 0';
     }
-
-    // If userInput is valid, return an empty string
     return '';
 }
