@@ -4,7 +4,6 @@
 //
 
 
-
 const colorCodes = {
     black: 0,
     brown: 1,
