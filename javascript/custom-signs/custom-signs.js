@@ -55,4 +55,4 @@ export function graduationFor(name, year) {
 export function costOf(sign, currency) {
     return `Your sign costs ${parseFloat(20 + 2* sign.length).toFixed(2)} ${currency}.`
 
-}
+} 
