@@ -46,6 +46,7 @@ export function ticketStatus(tickets, ticketId) {
 /**
  * Determines the status a ticket has in the ticket tracking object
  * and returns a simplified status message.
+ * 
  *
  * @param {Record<string, string|null>} tickets
  * @param {string} ticketId
