@@ -33,4 +33,4 @@ export class Triangle {
     if ( (l + b >= h) && (b + h >= l) && (l + h >= b)) return true;
     else return false;
   }
-}
+} 
