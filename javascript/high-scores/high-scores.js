@@ -24,4 +24,4 @@ export class HighScores {
     return this.scoreList.sort((a, b) => b - a).slice(0, 3);
 
   }
-}
+} 
