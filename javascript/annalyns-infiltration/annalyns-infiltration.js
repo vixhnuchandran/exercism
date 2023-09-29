@@ -41,7 +41,7 @@ export function canExecuteFastAttack(knightIsAwake) {
  */
 
 export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
-  return   (knightIsAwake +  archerIsAwake + prisonerIsAwake) >=1
+  return (knightIsAwake +  archerIsAwake + prisonerIsAwake) >=1
 }
 
 /**
