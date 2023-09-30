@@ -1,4 +1,8 @@
 /// <reference path="./global.d.ts" />
+
+import { resourceUsage } from "process";
+
+
 // @ts-check
 //
 // The lines above enable type checking for this file. Various IDEs interpret
@@ -26,15 +30,11 @@ export class TranslationService {
    * @param {string} text
    * @returns {Promise<string>}
    */
-free(text) {
-  return this.api.fetch(text)
-    .then((translation) => {
-      return translation;
-    })
-    .catch((error) => {
-      throw error;
-    });
-}
+  free(text) {
+
+    return this.api.fetch(text).then((result) => result.translation)
+
+  }
 
   /**
    * Batch translates the given texts using the free service.
@@ -47,21 +47,11 @@ free(text) {
    * @returns {Promise<string[]>}
    */
   batch(texts) {
-    if (texts.length === 0) {
-      // Reject with BatchIsEmpty error if the input array is empty
-      return Promise.reject(new BatchIsEmptyError());
-    }
 
-    // Use Promise.all to handle multiple translations
-    return Promise.all(texts.map((text) => this.api.fetch(text)))
-      .then((translations) => {
-        // Return all translations in the same order
-        return translations;
-      })
-      .catch((error) => {
-        // Reject with the first encountered error
-        throw error;
-      });
+    if (texts.length === 0) {
+      return Promise.reject(new BatchIsEmpty())
+    }
+    return Promise.all(texts.map(this.free.bind(this)))
   }
 
   /**
@@ -74,7 +64,15 @@ free(text) {
    * @returns {Promise<void>}
    */
   request(text) {
-    throw new Error('Implement the request function');
+    const thePromise = () => new Promise((resolve, reject) => {
+      this.api.request(text,(result)=>{
+        result ? reject(result) : resolve();
+      })
+    })
+
+    return thePromise()
+    .catch(thePromise)
+    .catch(thePromise)
   }
 
   /**
@@ -87,8 +85,19 @@ free(text) {
    * @param {number} minimumQuality
    * @returns {Promise<string>}
    */
-  premium(text, minimumQuality) {
-    throw new Error('Implement the premium function');
+  premium(text, minimumQuality) {return this.api.fetch(text)
+    .catch(() =>{
+      return this.request(text).then(() => this.api.fetch(text))
+    })
+    .then((result) => {
+      if (result.quality < minimumQuality) {
+        throw new QualityThresholdNotMet()
+      }
+      return result.translation
+      
+    })
+
+
   }
 }
 
