@@ -4,4 +4,4 @@
 //
 
 export const encode = text => text.replace(/(\w|\s)\1+/g, (subStr, char) => `${subStr.length}${char}`);
-export const decode = text => text.replace(/(\d+)(\w|\s)/g, (_, char, c) => c.repeat(char));
+export const decode = text => text.replace(/(\d+)(\w|\s)/g, (_, char, c) => c.repeat(char)); 
