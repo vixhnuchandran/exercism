@@ -5,50 +5,47 @@
 
 export class List {
   constructor(list = []) {
-    this.list = list;
+    this.values = list;
   }
 
-  get values() {
-    return this.list;
-  }
 
   append(list2) {
-    this.list = [...this.list, ...list2.list];
+    this.values = [...this.values, ...list2.values];
     return this;
   }
 
   concat(lists) {
-    const newList = this.list;
-    for (const targetList of lists.list) {
-      for (const listItem of targetList.list) {
-        newList.push(listItem);
+    const newList = this.values;
+    for (const each of lists.values) {
+      for (const item of each.values) {
+        newList.push(item);
       }
     }
-    this.list = newList;
+    this.values = newList;
     return this;
   }
 
   filter(fn) {
     const newList = [];
-    for (const listItem of this.list) {
+    for (const listItem of this.values) {
       if (fn(listItem)) newList.push(listItem);
     }
-    this.list = newList;
+    this.values = newList;
     return this;
   }
 
   map(fn) {
     const newList = [];
     for (let i = 0; i < this.length(); i++) {
-      newList.push(fn(this.list[i]));
+      newList.push(fn(this.values[i]));
     }
-    this.list = newList;
+    this.values = newList;
     return this;
   }
 
   length() {
     let length = 0;
-    for (const listItem of this.list) {
+    for (const listItem of this.values) {
       length++;
     }
     return length;
@@ -57,7 +54,7 @@ export class List {
   foldl(fn, start) {
     let acc = start;
     for (let i = 0; i < this.length(); i++) {
-      acc = fn(acc, this.list[i]);
+      acc = fn(acc, this.values[i]);
     }
     return acc;
   }
@@ -65,17 +62,17 @@ export class List {
   foldr(fn, start) {
     let acc = start;
     for (let i = this.length() - 1; i >= 0; i--) {
-      acc = fn(acc, this.list[i]);
+      acc = fn(acc, this.values[i]);
     }
     return acc;
   }
 
   reverse() {
     const newList = [];
-    for (const listItem of this.list) {
+    for (const listItem of this.values) {
       newList.unshift(listItem);
     }
-    this.list = newList;
+    this.values = newList;
     return this;
   }
 }
