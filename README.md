@@ -121,7 +121,7 @@ Profile  <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 116   | Nth Prime                   | JavaScript | Medium          |      | 🚧 In Progress |
 | 117   | Sieve                       | JavaScript | Medium          |      | 🚧 In Progress |
 | 118   | Affine Cipher               | JavaScript | Medium          | October 21, 2023      | ✅ Completed |
-| 119   | Atbash Cipher               | JavaScript | Medium          |      | 🚧 In Progress |
+| 119   | Atbash Cipher               | JavaScript | Medium          |  October 23, 2023    | ✅ Completed |
 | 120   | Robot Simulator             | JavaScript | Medium          |      | 🚧 In Progress |
 | 121   | Kindergarten Garden         | JavaScript | Medium          |      | 🚧 In Progress |
 | 122   | Sum of Multiples            | JavaScript | Medium          |   October 16, 2023     | ✅ Completed |
