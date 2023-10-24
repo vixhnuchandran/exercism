@@ -121,7 +121,7 @@ Profile  <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 117   | Sieve                       | JavaScript | Medium           |                  | 🚧 In Progress | |
 | 118   | Affine Cipher               | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/affine-cipher/solutions/vixhnuchandran |
 | 119   | Atbash Cipher               | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/atbash-cipher/solutions/vixhnuchandran |
-| 120   | Robot Simulator             | JavaScript | Medium           |                  | 🚧 In Progress | |
+| 120   | Robot Simulator             | JavaScript | Medium           |   October 24, 2023               | ✅ Completed | https://exercism.org/tracks/javascript/exercises/robot-simulator/solutions/vixhnuchandran |
 | 121   | Kindergarten Garden         | JavaScript | Medium           |                  | 🚧 In Progress | |
 | 122   | Sum of Multiples            | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/sum-of-multiples/solutions/vixhnuchandran |
 | 123   | Square Root                 | JavaScript | Medium           |                  | 🚧 In Progress | |
