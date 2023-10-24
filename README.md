@@ -84,7 +84,7 @@ Profile  <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 80    | Complex Numbers             | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/complex-numbers/solutions/vixhnuchandran |
 | 81    | Luhn                         | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/luhn/solutions/vixhnuchandran |
 | 82    | Prime Factors                 | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/prime-factors/solutions/vixhnuchandran |
-| 83    | Grains                       | JavaScript | Medium           | October 24, 2023 | ✅ Completed | |
+| 83    | Grains                       | JavaScript | Medium           | October 24, 2023 | ✅ Completed | https://exercism.org/tracks/javascript/exercises/grains/solutions/vixhnuchandran |
 | 84    | Pythagorean Triplet          | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/pythagorean-triplet/solutions/vixhnuchandran |
 | 85    | Palindrome Products          | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/palindrome-products/solutions/vixhnuchandran |
 | 86    | Largest Series Product        | JavaScript | Medium           | October 18, 2023     | ✅ Completed | https://exercism.org/tracks/javascript/exercises/largest-series-product/solutions/vixhnuchandran |
