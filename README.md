@@ -1,7 +1,8 @@
 # Exercism Challenges <a href="https://github.com/vixhnuchandran/exercism/tree/master/javascript" > Javascript </a>
 
 Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
-#JAVASCRIPT
+
+# JAVASCRIPT
 
 # Progress 101/141
 
@@ -148,6 +149,7 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 140   | Zipper                             | JavaScript | Hard              |                    | 🚧 In Progress |                                                                                                              |
 
 # TYPESCRIPT
+
 # Progress 2/95
 
 Certainly, I can help you fill in the table. Here's the table with the requested information:
