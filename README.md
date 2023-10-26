@@ -2,7 +2,7 @@
 
 Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 
-# Progress
+# Progress 101/141
 
 | Sl No | Exercise                           | Language   | Difficulty        | Date               | Status         | Solutions                                                                                                    |
 | ----- | ---------------------------------- | ---------- | ----------------- | ------------------ | -------------- | ------------------------------------------------------------------------------------------------------------ |
