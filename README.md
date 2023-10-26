@@ -4,7 +4,7 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 
 # JAVASCRIPT
 
-# Progress 101/141
+# Progress 102/141
 
 | Sl No | Exercise                           | Language   | Difficulty        | Date               | Status         | Solutions                                                                                                    |
 | ----- | ---------------------------------- | ---------- | ----------------- | ------------------ | -------------- | ------------------------------------------------------------------------------------------------------------ |
