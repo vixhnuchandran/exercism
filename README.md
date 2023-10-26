@@ -1,6 +1,7 @@
 # Exercism Challenges <a href="https://github.com/vixhnuchandran/exercism/tree/master/javascript" > Javascript </a>
 
 Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
+#JAVASCRIPT
 
 # Progress 101/141
 
@@ -145,3 +146,106 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 138   | Queen Attack                       | JavaScript | Hard              |                    | 🚧 In Progress |                                                                                                              |
 | 139   | React                              | JavaScript | Hard              |                    | 🚧 In Progress |                                                                                                              |
 | 140   | Zipper                             | JavaScript | Hard              |                    | 🚧 In Progress |                                                                                                              |
+
+# TYPESCRIPT
+# Progress 2/95
+
+Certainly, I can help you fill in the table. Here's the table with the requested information:
+
+| Sl No | Exercise                 | Language   | Difficulty | Date               | Status         |
+| ----- | ------------------------ | ---------- | ---------- | ------------------ | -------------- |
+| 1     | Resistor Color           | Typescript |            |                    | 🚧 In Progress |
+| 2     | Resistor Color Duo       | Typescript |            |                    | 🚧 In Progress |
+| 3     | Resistor Color Trio      | Typescript |            |                    | 🚧 In Progress |
+| 4     | Leap                     | Typescript |            |                    | 🚧 In Progress |
+| 5     | RNA Transcription        | Typescript |            |                    | 🚧 In Progress |
+| 6     | Space Age                | Typescript |            |                    | 🚧 In Progress |
+| 7     | D&D Character            | Typescript |            |                    | 🚧 In Progress |
+| 8     | Darts                    | Typescript |            |                    | 🚧 In Progress |
+| 9     | Pangram                  | Typescript |            |                    | 🚧 In Progress |
+| 10    | Bob                      | Typescript |            |                    | 🚧 In Progress |
+| 11    | Matrix                   | Typescript |            |                    | 🚧 In Progress |
+| 12    | Robot Name               | Typescript |            |                    | 🚧 In Progress |
+| 13    | Grade School             | Typescript |            |                    | 🚧 In Progress |
+| 14    | Clock                    | Typescript |            |                    | 🚧 In Progress |
+| 15    | Secret Handshake         | Typescript |            |                    | 🚧 In Progress |
+| 16    | Binary Search            | Typescript |            |                    | 🚧 In Progress |
+| 17    | Linked List              | Typescript |            |                    | 🚧 In Progress |
+| 18    | Rational Numbers         | Typescript |            |                    | 🚧 In Progress |
+| 19    | Atbash Cipher            | Typescript |            |                    | 🚧 In Progress |
+| 20    | Simple Cipher            | Typescript |            |                    | 🚧 In Progress |
+| 21    | Wordy                    | Typescript |            |                    | 🚧 In Progress |
+| 22    | List Ops                 | Typescript |            |                    | 🚧 In Progress |
+| 23    | Word Count               | Typescript |            |                    | 🚧 In Progress |
+| 24    | Difference of Squares    | Typescript |            |                    | 🚧 In Progress |
+| 25    | Gigasecond               | Typescript |            |                    | 🚧 In Progress |
+| 26    | Reverse String           | Typescript |            |                    | 🚧 In Progress |
+| 27    | Triangle                 | Typescript |            |                    | 🚧 In Progress |
+| 28    | Collatz Conjecture       | Typescript |            |                    | 🚧 In Progress |
+| 29    | ETL                      | Typescript |            |                    | 🚧 In Progress |
+| 30    | Protein Translation      | Typescript |            |                    | 🚧 In Progress |
+| 31    | Raindrops                | Typescript |            |                    | 🚧 In Progress |
+| 32    | Hamming                  | Typescript |            |                    | 🚧 In Progress |
+| 33    | Nucleotide Count         | Typescript |            |                    | 🚧 In Progress |
+| 34    | Scrabble Score           | Typescript |            |                    | 🚧 In Progress |
+| 35    | Allergies                | Typescript |            |                    | 🚧 In Progress |
+| 36    | Perfect Numbers          | Typescript |            |                    | 🚧 In Progress |
+| 37    | Complex Numbers          | Typescript |            |                    | 🚧 In Progress |
+| 38    | Luhn                     | Typescript |            |                    | 🚧 In Progress |
+| 39    | Grains                   | Typescript |            |                    | 🚧 In Progress |
+| 40    | Pythagorean Triplet      | Typescript |            |                    | 🚧 In Progress |
+| 41    | Sum of Multiples         | Typescript |            |                    | 🚧 In Progress |
+| 42    | Acronym                  | Typescript |            |                    | 🚧 In Progress |
+| 43    | Anagram                  | Typescript |            |                    | 🚧 In Progress |
+| 44    | Isogram                  | Typescript |            |                    | 🚧 In Progress |
+| 45    | Roman Numerals           | Typescript |            |                    | 🚧 In Progress |
+| 46    | Series                   | Typescript |            |                    | 🚧 In Progress |
+| 47    | Phone Number             | Typescript |            |                    | 🚧 In Progress |
+| 48    | Two Bucket               | Typescript |            |                    | 🚧 In Progress |
+| 49    | Variable Length Quantity | Typescript |            |                    | 🚧 In Progress |
+| 50    | Largest Series Product   | Typescript |            |                    | 🚧 In Progress |
+| 51    | Food Chain               | Typescript |            |                    | 🚧 In Progress |
+| 52    | House                    | Typescript |            |                    | 🚧 In Progress |
+| 53    | ISBN Verifier            | Typescript |            |                    | 🚧 In Progress |
+| 54    | Pig Latin                | Typescript |            |                    | 🚧 In Progress |
+| 55    | Proverb                  | Typescript |            |                    | 🚧 In Progress |
+| 56    | Twelve Days              | Typescript |            |                    | 🚧 In Progress |
+| 57    | Beer Song                | Typescript |            |                    | 🚧 In Progress |
+| 58    | Say                      | Typescript |            |                    | 🚧 In Progress |
+| 59    | Rectangles               | Typescript |            |                    | 🚧 In Progress |
+| 60    | Saddle Points            | Typescript |            |                    | 🚧 In Progress |
+| 61    | Spiral Matrix            | Typescript |            |                    | 🚧 In Progress |
+| 62    | Transpose                | Typescript |            |                    | 🚧 In Progress |
+| 63    | OCR Numbers              | Typescript |            |                    | 🚧 In Progress |
+| 64    | Nth Prime                | Typescript |            |                    | 🚧 In Progress |
+| 65    | Alphametics              | Typescript |            |                    | 🚧 In Progress |
+| 66    | Connect                  | Typescript |            |                    | 🚧 In Progress |
+| 67    | Bowling                  | Typescript |            |                    | 🚧 In Progress |
+| 68    | Prime Factors            | Typescript |            |                    | 🚧 In Progress |
+| 69    | Diamond                  | Typescript |            |                    | 🚧 In Progress |
+| 70    | Pascal's Triangle        | Typescript |            |                    | 🚧 In Progress |
+| 71    | Binary Search Tree       | Typescript |            |                    | 🚧 In Progress |
+| 72    | Sublist                  | Typescript |            |                    | 🚧 In Progress |
+| 73    | Custom Set               | Typescript |            |                    | 🚧 In Progress |
+| 74    | Circular Buffer          | Typescript |            |                    | 🚧 In Progress |
+| 75    | Word Search              | Typescript |            |                    | 🚧 In Progress |
+| 76    | Sieve                    | Typescript |            |                    | 🚧 In Progress |
+| 77    | Palindrome Products      | Typescript |            |                    | 🚧 In Progress |
+| 78    | Diffie-Hellman           | Typescript |            |                    | 🚧 In Progress |
+| 79    | Robot Simulator          | Typescript |            |                    | 🚧 In Progress |
+| 80    | Armstrong Numbers        | Typescript |            |                    | 🚧 In Progress |
+| 81    | Run-Length Encoding      | Typescript |            |                    | 🚧 In Progress |
+| 82    | Rotational Cipher        | Typescript |            |                    | 🚧 In Progress |
+| 83    | Strain                   | Typescript |            |                    | 🚧 In Progress |
+| 84    | All Your Base            | Typescript |            |                    | 🚧 In Progress |
+| 85    | Flatten Array            | Typescript |            |                    | 🚧 In Progress |
+| 86    | Matching Brackets        | Typescript |            |                    | 🚧 In Progress |
+| 87    | Tournament               | Typescript |            |                    | 🚧 In Progress |
+| 88    | Minesweeper              | Typescript |            |                    | 🚧 In Progress |
+| 89    | Kindergarten Garden      | Typescript |            |                    | 🚧 In Progress |
+| 90    | Queen Attack             | Typescript |            |                    | 🚧 In Progress |
+| 91    | React                    | Typescript |            |                    | 🚧 In Progress |
+| 92    | Crypto Square            | Typescript |            |                    | 🚧 In Progress |
+| 93    | Knapsack                 | Typescript |            |                    | 🚧 In Progress |
+| 94    | Hello World              | Typescript | Easy       | September 29, 2023 | ✅ Completed   |
+| 95    | Two Fer                  | Typescript | Easy       | September 29, 2023 | ✅ Completed   |
