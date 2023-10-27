@@ -4,7 +4,7 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 
 # JAVASCRIPT
 
-# Progress 102/141
+# Progress 103/141
 
 | Sl No | Exercise                           | Language   | Difficulty        | Date               | Status         | Solutions                                                                                                    |
 | ----- | ---------------------------------- | ---------- | ----------------- | ------------------ | -------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -91,7 +91,7 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 82    | Prime Factors                      | JavaScript | Medium            | October 21, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/prime-factors/solutions/vixhnuchandran                      |
 | 83    | Grains                             | JavaScript | Medium            | October 24, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/grains/solutions/vixhnuchandran                             |
 | 84    | Pythagorean Triplet                | JavaScript | Medium            | October 14, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/pythagorean-triplet/solutions/vixhnuchandran                |
-| 85    | Palindrome Products                | JavaScript | Medium            | October 21, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/palindrome-products/solutions/vixhnuchandran                |
+| 85    | Palindrome Products                | JavaScript | Medium            | October 27, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/palindrome-products/solutions/vixhnuchandran                |
 | 86    | Largest Series Product             | JavaScript | Medium            | October 21, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/largest-series-product/solutions/vixhnuchandran             |
 | 87    | Grep                               | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
 | 88    | Rectangles                         | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
