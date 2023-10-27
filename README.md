@@ -152,8 +152,6 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 
 # Progress 2/95
 
-Certainly, I can help you fill in the table. Here's the table with the requested information:
-
 | Sl No | Exercise                 | Language   | Difficulty | Date               | Status         |
 | ----- | ------------------------ | ---------- | ---------- | ------------------ | -------------- |
 | 1     | Resistor Color           | Typescript |            |                    | 🚧 In Progress |
