@@ -4,7 +4,7 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 
 # JAVASCRIPT
 
-# Progress 103/141
+# Progress 104/141
 
 | Sl No | Exercise                           | Language   | Difficulty        | Date               | Status         | Solutions                                                                                                    |
 | ----- | ---------------------------------- | ---------- | ----------------- | ------------------ | -------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -110,7 +110,7 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 101   | Resistor Color Trio                | JavaScript | Medium            | October 20, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/resistor-color-trio/solutions/vixhnuchandran                |
 | 102   | Dominoes                           | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
 | 103   | Say                                | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
-| 104   | Diamond                            | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
+| 104   | Diamond                            | JavaScript | Medium            |                    | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/diamond/solutions/vixhnuchandran                            |
 | 105   | Rational Numbers                   | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
 | 106   | Sublist                            | JavaScript | Medium            | October 13, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/sublist/solutions/vixhnuchandran                            |
 | 107   | Binary Search Tree                 | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
