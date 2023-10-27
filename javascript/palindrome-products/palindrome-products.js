@@ -3,54 +3,44 @@
 // convenience to get you started writing code faster.
 //
 
-function isPalindrome(str) {
-  const reversedStr = str.split('').reverse().join('');
-  return str === reversedStr;
-}
-
 export class Palindromes {
-  static generate(obj) {
-    const limits = { ...obj };
-    const maxFact = limits['maxFactor'];
-    const minFact = limits['minFactor'];
+  static generate({ minFactor, maxFactor }) {
+    if (minFactor > maxFactor) throw new Error("min must be <= max");
 
-    if (minFact === maxFact || maxFact - minFact === 1) {
-      return {
-        smallest: { value: null, factors: [] },
-        largest: { value: null, factors: [] }
-      }
-    }
-    if (maxFact < minFact) { throw new Error('min must be <= max') }
+    let isPalindrome = (n) =>
+      [...n.toString()].reverse().join("") === n.toString();
 
-
-    let palindromes = [];
-    let palindromesObj = {};
-
-    for (let i = minFact; i <= maxFact; i++) {
-      for (let j = i; j <= maxFact; j++) {
-        const product = i * j;
-        if (isPalindrome(product.toString())) {
-          palindromes.push([i, j, product]);
-
-          if (!palindromesObj[product]) {
-            palindromesObj[product] = [];
-          }
-          palindromesObj[product].push([i, j]);
+    let search = (n, pred, fn) => {
+      while (pred(n)) {
+        if (!isPalindrome(n)) {
+          n = fn(n);
+          continue;
         }
+        let factors = [];
+        for (let p = minFactor; p <= n / p; p++) {
+          if (n % p === 0) {
+            let q = n / p;
+
+            if (q <= maxFactor) factors.push([p, q]);
+          }
+        }
+        if (factors.length > 0) return { value: n, factors };
+        n = fn(n);
       }
-    }
-
-    const sortedPalindromes = [...palindromes].sort((a, b) => a[2] - b[2]);
-    const smallestValue = sortedPalindromes[0][2];
-    const largestValue = sortedPalindromes[sortedPalindromes.length - 1][2];
-
-    const getFactors = (value) => {
-      return palindromesObj[value] || [];
+      return { value: null, factors: [] };
     };
-
+    let [lower, upper] = [minFactor * minFactor, maxFactor * maxFactor];
     return {
-      smallest: { value: smallestValue, factors: getFactors(smallestValue) },
-      largest: { value: largestValue, factors: getFactors(largestValue) },
+      largest: search(
+        upper,
+        (n) => n >= lower,
+        (x) => x - 1
+      ),
+      smallest: search(
+        lower,
+        (n) => n <= upper,
+        (x) => x + 1
+      ),
     };
   }
 }
