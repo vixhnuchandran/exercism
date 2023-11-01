@@ -4,7 +4,7 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 
 # JAVASCRIPT
 
-# Progress 104/141
+# Progress 107/141
 
 | Sl No | Exercise                           | Language   | Difficulty        | Date               | Status         | Solutions                                                                                                    |
 | ----- | ---------------------------------- | ---------- | ----------------- | ------------------ | -------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -101,10 +101,10 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 92    | Food Chain                         | JavaScript | Medium            | October 22, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/food-chain/solutions/vixhnuchandran                         |
 | 93    | House                              | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
 | 94    | ISBN Verifier                      | JavaScript | Medium            | October 17, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/isbn-verifier/solutions/vixhnuchandran                      |
-| 95    | Pig Latin                          | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
+| 95    | Pig Latin                          | JavaScript | Medium            | October 30, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/pig-latin/solutions/vixhnuchandran                          |
 | 96    | Proverb                            | JavaScript | Medium            | October 21, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/proverb/solutions/vixhnuchandran                            |
 | 97    | Twelve Days                        | JavaScript | Medium            | October 26, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/twelve-days/solutions/vixhnuchandran                        |
-| 98    | Promises                           | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
+| 98    | Promises                           | JavaScript | Medium            | October 30, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/promises/solutions/vixhnuchandran                           |
 | 99    | Yacht                              | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
 | 100   | Beer Song                          | JavaScript | Medium            | October 13, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/beer-song/solutions/vixhnuchandran                          |
 | 101   | Resistor Color Trio                | JavaScript | Medium            | October 20, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/resistor-color-trio/solutions/vixhnuchandran                |
@@ -130,7 +130,7 @@ Profile <a href="https://exercism.org/profiles/vixhnuchandran" > here </a>
 | 121   | Kindergarten Garden                | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
 | 122   | Sum of Multiples                   | JavaScript | Medium            | October 16, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/sum-of-multiples/solutions/vixhnuchandran                   |
 | 123   | Square Root                        | JavaScript | Medium            | October 25, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/square-root/solutions/vixhnuchandran                        |
-| 124   | All Your Base                      | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
+| 124   | All Your Base                      | JavaScript | Medium            | November 1, 2023   | ✅ Completed   | https://exercism.org/tracks/javascript/exercises/all-your-base/solutions/vixhnuchandran                      |
 | 125   | Minesweeper                        | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
 | 126   | Zebra Puzzle                       | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
 | 127   | REST API                           | JavaScript | Medium            |                    | 🚧 In Progress |                                                                                                              |
